@@ -10,7 +10,21 @@
     <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@android:style/Theme.Translucent" >
+        <activity
+            android:name="jp.mitukiii.twiccaplugins.recto.MainActivity"
+            android:label="@string/plugin_name">
+            <intent-filter android:label="@string/label">
+				<action android:name="jp.r246.twicca.ACTION_SHOW_USER" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="jp.r246.twicca.category.OWNER" />
+			</intent-filter>
+			<intent-filter android:label="@string/label">
+				<action android:name="jp.r246.twicca.ACTION_SHOW_USER" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="jp.r246.twicca.category.USER" />
+			</intent-filter>
+        </activity>
     </application>
 
 </manifest>

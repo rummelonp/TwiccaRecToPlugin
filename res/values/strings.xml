@@ -1,5 +1,7 @@
 <resources>
 
-    <string name="app_name">twicca rec.to プラグイン</string>
+    <string name="app_name">rec.to plugin for twicca</string>
+    <string name="plugin_name">rec.to plugin</string>
+    <string name="label">Show in rec.to</string>
 
 </resources>
